@@ -10,16 +10,18 @@
 </head>
 <body class="ds-industry">
 
-<nav class="nav site-nav wrap">
+<aside class="side-nav">
   <div class="nav-brand">Oversight Brief</div>
-  <a href="#problem">Problem</a>
-  <a href="#evidence">Evidence</a>
-  <a href="#cases">Case Studies</a>
-  <a href="#why">Why It Matters</a>
-  <a href="#policy">Policy</a>
-  <a href="#faq">FAQ</a>
-</nav>
+  <nav class="side-nav-links">
+    <a href="#problem" class="side-nav-primary"><span class="side-nav-num">01</span>Problem Framing</a>
+    <a href="#cases" class="side-nav-sub">Case Studies</a>
+    <a href="#why" class="side-nav-primary"><span class="side-nav-num">02</span>Why It Matters</a>
+    <a href="#gap" class="side-nav-primary"><span class="side-nav-num">03</span>Gap in Current Policy</a>
+    <a href="#safeguard" class="side-nav-primary"><span class="side-nav-num">04</span>Drop-In Policy Safeguard</a>
+  </nav>
+</aside>
 
+<div class="page">
 <header class="hero wrap">
   <div class="tag tag-accent" style="margin-bottom: var(--space-4);">GOVERNANCE BRIEF</div>
   <h1>When organizations delegate judgment to AI, who still decides?</h1>
@@ -52,7 +54,7 @@
 
 <main>
   <section id="problem" class="brief-section wrap">
-    <h2>The Problem</h2>
+    <h2><span class="section-num">01</span>Problem Framing</h2>
     <p>Gradual disempowerment happens one convenient decision at a time: a model recommends, a team defers, and over months the organization's own judgment — and its leaders' control over direction — quietly atrophies. Staff who once made a judgment call now approve one; the muscle for the call itself, not just its output, fades within a few quarters.</p>
     <p>Without a named human owner, a model's recommendation becomes the default outcome — authority shifts without anyone deciding to shift it. And because tools roll out in weeks while the policies to govern them take quarters, the gap between adoption and oversight is exactly where control erodes fastest.</p>
 
@@ -76,10 +78,8 @@
       <li><span class="chain-num">06</span><span>Human approval remains, but meaningful human control declines</span></li>
     </ol>
     <p>Left unchecked: workflow replacement, a subtler erosion of human control, and compounding misalignment.</p>
-  </section>
 
-  <section id="evidence" class="brief-section wrap">
-    <h2>Is This Already Happening?</h2>
+    <h3>Is This Already Happening?</h3>
     <p>Federal AI spending shows how fast adoption is outpacing governance (Brookings research, 2026):</p>
 
     <div class="stat-grid">
@@ -150,33 +150,31 @@
         </p>
       </div>
     </div>
-  </section>
 
-  <section id="cases" class="brief-section wrap">
-    <h2>Case Studies</h2>
+    <h3 id="cases">Case Studies</h3>
 
     <div class="case-card card">
       <div class="card-kicker">City of San Francisco — Usage Inventory</div>
-      <h3 class="card-title">"Adoption All Over the Place"</h3>
+      <h4 class="card-title">"Adoption All Over the Place"</h4>
       <p class="card-body">As of a <a href="https://apple.news/AJ0TYSeyITD2sbuQEnLzXxA" target="_blank" rel="noopener">January 2026 report</a>, San Francisco had identified 42 AI technologies across 8 departments — and the city itself expects the inventory to keep growing as reporting matures.</p>
     </div>
 
     <div class="case-card card">
       <div class="card-kicker">City of San Francisco — Ordinance "Streamlining"</div>
-      <h3 class="card-title">Efficiency Gains, Bundled Policy Choices</h3>
+      <h4 class="card-title">Efficiency Gains, Bundled Policy Choices</h4>
       <p class="card-body"><strong>The technology:</strong> the City Attorney's Office partnered with <a href="https://reglab.org/" target="_blank" rel="noopener">Stanford RegLab</a> to scan San Francisco's 16 million words of municipal code. <strong>The goal:</strong> decluttering the code by finding redundant or outdated statutes. <strong>The outcome:</strong> a 36% reduction in amendable reporting requirements.<sup><a href="https://www.linkedin.com/pulse/reports-nobody-reads-how-san-francisco-used-ai-declutter-noveck-k6k7e" target="_blank" rel="noopener">1</a>,<a href="https://rebootdemocracy.ai/blog/sf-ai-regulatory-decluttering" target="_blank" rel="noopener">2</a>,<a href="https://www.sf.gov/news-city-attorney-introduces-legislation-to-modernize-municipal-code-with-technology" target="_blank" rel="noopener">3</a></sup></p>
       <p class="card-body">Supervisor Melgar agreed with the substance of the changes but not the process of combining so many of them together: "There are policy implications for streamlining and getting rid of reports — that I think are policy decisions."</p>
     </div>
 
     <div class="case-card card">
       <div class="card-kicker">Democracy's Civic Foundations</div>
-      <h3 class="card-title">Erosion of Democratic Norms</h3>
+      <h4 class="card-title">Erosion of Democratic Norms</h4>
       <p class="card-body">Democracy requires institutional accountability and participation: the capacity of public institutions to deliver effectively and transparently on their promises, and to respond meaningfully to public input. AI can target and amplify social grievances, and can act as a powerful accelerator for direct democracy — cheaper, easier, more frequent than ever — while undermining the civic foundations that make direct-democracy mechanisms legitimate and stable. Flooding the public square with synthetic persuasion, fragmenting shared discourse, and overpowering civil society risks a system more plebiscitary than deliberative, more efficient than legitimate, and ultimately more destabilizing than stabilizing. (<a href="https://www.journalofdemocracy.org/articles/the-ai-democracy-dilemma/" target="_blank" rel="noopener">Journal of Democracy</a>; <a href="https://www.packard.org/wp-content/uploads/2026/03/AI-x-Democracy-Perspectives-from-an-Emerging-Field-Final-Report.pdf" target="_blank" rel="noopener">Packard Foundation</a>)</p>
     </div>
   </section>
 
   <section id="why" class="brief-section wrap">
-    <h2>Why It Matters</h2>
+    <h2><span class="section-num">02</span>Why It Matters</h2>
 
     <h3>To Individuals</h3>
     <p>You are the average of the five people you spend the most time with — what if those "people" are AI models? How often have you already turned to an LLM for a purchase decision, a relationship question, a job conflict, or a car or house purchase? Have you thought about how AI models are subtly changing you?</p>
@@ -189,14 +187,14 @@
     <p>This is why AI governance matters to everyone, not just policymakers or technology companies. It isn't about restricting AI — it's about transparency, accountability, and preserving meaningful human agency.</p>
   </section>
 
-  <section id="policy" class="brief-section policy wrap">
-    <h2>Policy</h2>
-
-    <h3>The Gap in Current Policy</h3>
+  <section id="gap" class="brief-section wrap">
+    <h2><span class="section-num">03</span>Gap in Current Policy</h2>
     <p>Existing U.S. policy tracks whether AI was used and whether a human signed off — and stops there. That standard is satisfied even when a human's only contribution was approving an idea that was AI-originated from the start. NIST's AI Risk Management Framework, the leading framework, lets organizations adopt as many or as few of its recommendations as they see fit, leaving this gap open at every organization's discretion. Signing off is not the same as deciding.</p>
+  </section>
 
-    <h3>A Drop-In Policy: The Gradual Disempowerment Safeguard</h3>
-    <p>Choose your package — adoption scaled to organization size and impact.</p>
+  <section id="safeguard" class="brief-section policy wrap">
+    <h2><span class="section-num">04</span>Our Suggestion: A Drop-In Policy Safeguard</h2>
+    <p>The Gradual Disempowerment Safeguard — choose your package, adoption scaled to organization size and impact.</p>
 
     <div class="tier-grid">
       <div class="tier-card card">
@@ -279,6 +277,7 @@
 </main>
 
 <footer class="site-footer wrap">A governance brief on gradual disempowerment. For internal circulation among organizational and civic leadership.</footer>
+</div>
 
 </body>
 </html>
