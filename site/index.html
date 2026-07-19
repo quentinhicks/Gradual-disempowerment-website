@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>When organizations delegate judgment to AI, who still decides? — Oversight Brief</title>
-<meta name="description" content="A governance brief on gradual disempowerment: the problem, the signals leaders are already seeing, and five governance steps organizations can take today.">
+<meta name="description" content="A governance brief on gradual disempowerment: the evidence it's already underway, case studies from city government, and a tiered policy organizations and local government can adopt today.">
 <link rel="stylesheet" href="./styles.css">
 <link rel="stylesheet" href="./site.css">
 </head>
@@ -14,13 +14,16 @@
   <div class="nav-brand">Oversight Brief</div>
   <a href="#problem">Problem</a>
   <a href="#evidence">Evidence</a>
-  <a href="#policy">Policy Steps</a>
+  <a href="#cases">Case Studies</a>
+  <a href="#why">Why It Matters</a>
+  <a href="#policy">Policy</a>
   <a href="#faq">FAQ</a>
 </nav>
 
 <header class="hero wrap">
   <div class="tag tag-accent" style="margin-bottom: var(--space-4);">GOVERNANCE BRIEF</div>
   <h1>When organizations delegate judgment to AI, who still decides?</h1>
+  <p class="lede">It happens one convenient decision at a time — no single event, just a system that reinforces itself.</p>
 </header>
 
 <main>
@@ -28,22 +31,198 @@
     <h2>The Problem</h2>
     <p>Gradual disempowerment happens one convenient decision at a time: a model recommends, a team defers, and over months the organization's own judgment — and its leaders' control over direction — quietly atrophies. Staff who once made a judgment call now approve one; the muscle for the call itself, not just its output, fades within a few quarters.</p>
     <p>Without a named human owner, a model's recommendation becomes the default outcome — authority shifts without anyone deciding to shift it. And because tools roll out in weeks while the policies to govern them take quarters, the gap between adoption and oversight is exactly where control erodes fastest.</p>
+
+    <h3>What Counts as Disempowerment</h3>
+    <p>Disempowerment doesn't require an AI to make a final call. It happens whenever AI is voluntarily given control over the inputs that shape the call — usually well before anyone signs off on anything:</p>
+    <ul class="def-list">
+      <li>Which options are proposed</li>
+      <li>Which resources are made available</li>
+      <li>Which alternatives in trade-offs are given higher priority</li>
+      <li>Which stakeholders are emphasized</li>
+      <li>Which issues within proposed policies are highlighted</li>
+    </ul>
+
+    <h3>How It Happens</h3>
+    <ol class="chain">
+      <li><span class="chain-num">01</span><span>AI assists with tasks</span></li>
+      <li><span class="chain-num">02</span><span>AI becomes the default starting point</span></li>
+      <li><span class="chain-num">03</span><span>Humans increasingly review rather than originate</span></li>
+      <li><span class="chain-num">04</span><span>AI shapes which choices and evidence are considered</span></li>
+      <li><span class="chain-num">05</span><span>Independent skills and institutional knowledge weaken</span></li>
+      <li><span class="chain-num">06</span><span>Human approval remains, but meaningful human control declines</span></li>
+    </ol>
+    <p>Left unchecked, this pattern compounds: workflows once merely assisted by AI get fully replaced by it, and small misalignments between AI output and organizational goals accumulate across cycles instead of resetting each time. That's the endpoint — not one bad decision, but a system that quietly stops responding to the humans nominally in charge of it.</p>
   </section>
 
   <section id="evidence" class="brief-section wrap">
-    <h2>Signals Leaders Are Already Seeing</h2>
-    <p><strong>Rubber-stamp reviews</strong> — managers approve AI output without reworking it, even when unsure, so the check stops functioning as a check. <strong>Disappearing rationale</strong> — decisions are made that no one can explain without the tool, so institutional judgment becomes untransferable. <strong>Escalation drift</strong> — higher-stakes calls move into AI-assisted workflows meant for routine ones, so consequential choices lose proportionate scrutiny.</p>
+    <h2>Is This Already Happening?</h2>
+    <p>Adoption is accelerating far faster than the governance meant to keep pace with it. Federal AI spending shows the scale (Brookings research, 2026):</p>
+
+    <div class="stat-grid">
+      <div class="card stat-tile">
+        <div class="stat-number">$7.2B</div>
+        <div class="stat-label">Funds obligated</div>
+        <div class="stat-delta">up 966% from $675M in 2024</div>
+      </div>
+      <div class="card stat-tile">
+        <div class="stat-number">$91.8B</div>
+        <div class="stat-label">Potential awards</div>
+        <div class="stat-delta">up 1,912% from $4.6B in 2024</div>
+      </div>
+      <div class="card stat-tile">
+        <div class="stat-number">1,743</div>
+        <div class="stat-label">Federal AI contracts</div>
+        <div class="stat-delta">up from 472 in 2022</div>
+      </div>
+      <div class="card stat-tile">
+        <div class="stat-number">28</div>
+        <div class="stat-label">Agencies with AI contracts</div>
+        <div class="stat-delta">up from 17 in 2022, 23 in 2024</div>
+      </div>
+      <div class="card stat-tile">
+        <div class="stat-number">$13.4B</div>
+        <div class="stat-label">Pentagon's 2026 AI budget</div>
+        <div class="stat-delta">a record amount</div>
+      </div>
+      <div class="card stat-tile">
+        <div class="stat-number">$3.3B</div>
+        <div class="stat-label">FY2025 federal AI R&D budget</div>
+        <div class="stat-delta">$1.95B direct + $1.36B crosscutting; $3.3B+ non-defense</div>
+      </div>
+    </div>
+
+    <h3>Governance Is Trying to Catch Up</h3>
+    <p>State legislatures are moving in parallel, introducing a growing wave of AI safety bills. At the local level, at least 21 county and city governments have already published their own AI governance policies:</p>
+    <div class="juris-grid">
+      <div class="juris-col">
+        <div class="juris-heading">Counties &amp; Regional Governments</div>
+        <p>Haines Borough, Alaska; Alameda County, Calif.; Los Angeles County, Calif.; Santa Cruz County, Calif.; Sonoma County, Calif.; Miami-Dade County, Fla.; Prince George's County, Md.; Montgomery County, Md.; Washington County, Ore.; Nashville and Davidson County, Tenn.</p>
+      </div>
+      <div class="juris-col">
+        <div class="juris-heading">City Governments</div>
+        <p>Baltimore, Md.; Birmingham, Ala.; Boise, Idaho; Boston, Mass.; Lebanon, N.H.; Long Beach, Calif.; New York City, N.Y.; San Francisco, Calif.; San Jose, Calif.; Seattle, Wash.; Tempe, Ariz.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cases" class="brief-section wrap">
+    <h2>Case Studies</h2>
+
+    <div class="case-card card">
+      <div class="card-kicker">City of San Francisco — Usage Inventory</div>
+      <h3 class="card-title">"Adoption All Over the Place"</h3>
+      <p class="card-body">As of a <a href="https://apple.news/AJ0TYSeyITD2sbuQEnLzXxA" target="_blank" rel="noopener">January 2026 report</a>, San Francisco had identified 42 AI technologies in use across 8 departments — with the city itself acknowledging the inventory will keep expanding as reporting matures. If the city that built the inventory can't yet see the whole picture, most organizations can't either.</p>
+    </div>
+
+    <div class="case-card card">
+      <div class="card-kicker">City of San Francisco — Ordinance "Streamlining"</div>
+      <h3 class="card-title">Efficiency Gains, Bundled Policy Choices</h3>
+      <p class="card-body">The City Attorney's Office partnered with Stanford RegLab to scan San Francisco's 16 million words of municipal code, aiming to declutter the code by identifying redundant or outdated statutes. The result was a 36% reduction in amendable reporting requirements — real red tape cut, updated city management.</p>
+      <p class="card-body">But the process folded many individual changes into a single package. As Supervisor Melgar put it, she agreed with the substance of the changes but took issue with the process of combining so many of them together: "There are policy implications for streamlining and getting rid of reports — that I think are policy decisions." This is the mechanism in miniature: an AI-originated draft that is administratively sound can still bundle away the deliberation that individual policy decisions are owed.</p>
+    </div>
+
+    <div class="case-card card">
+      <div class="card-kicker">Democracy's Civic Foundations</div>
+      <h3 class="card-title">Erosion of Democratic Norms</h3>
+      <p class="card-body">Democracy requires institutional accountability and participation: the capacity of public institutions to deliver effectively and transparently on their promises, and to respond meaningfully to public input. AI can target and amplify social grievances, and can act as a powerful accelerator for direct democracy — cheaper, easier, and more frequent than ever — while systematically undermining the civic foundations that make direct-democracy mechanisms legitimate and stable. Flooding the public square with synthetic persuasion, fragmenting shared discourse, and overpowering traditional civil society risks a system that is more plebiscitary than deliberative, more efficient than legitimate, and ultimately more destabilizing than stabilizing. (<a href="https://www.journalofdemocracy.org/articles/the-ai-democracy-dilemma/" target="_blank" rel="noopener">Journal of Democracy</a>; <a href="https://www.packard.org/wp-content/uploads/2026/03/AI-x-Democracy-Perspectives-from-an-Emerging-Field-Final-Report.pdf" target="_blank" rel="noopener">Packard Foundation</a>)</p>
+    </div>
+  </section>
+
+  <section id="why" class="brief-section wrap">
+    <h2>Why It Matters</h2>
+
+    <h3>To Individuals</h3>
+    <p>There's a saying that you are the average of the five people you spend the most time with. What if those "people" are AI models? Consider how often you already turn to an LLM for purchase decisions, a relationship question, a workplace conflict, or a major decision like a car or a house — and how easy it is not to notice the model shaping your view along the way.</p>
+    <p>No LLM is truly neutral. Its viewpoints are formed by the data it ingests and by reinforcement learning from human feedback, and no group of people providing that feedback is free of bias. As a growing share of the information people consume is LLM-generated, understanding that latent bias — and its effect on individual belief and on society at large — isn't optional. (<a href="https://dl.acm.org/doi/10.1145/3544548.3581196" target="_blank" rel="noopener">ACM Digital Library</a>)</p>
+    <p>Governments are increasingly using AI to increase efficiency in consequential domains — surveillance, housing, criminal justice — where the same latent bias shows up at population scale. A meaningful human-in-the-loop component is essential to fairness, accuracy, and public trust. AI use is inevitable and its benefits are real; what's missing is the governance to use it responsibly.</p>
+
+    <h3>To Everyone</h3>
+    <p>Many of us believe we remain fully in control when using AI — that we're simply using it as a tool while we make the final decisions. But the more we outsource difficult tasks like evaluating options, forming judgments, or framing problems, the easier it becomes to accept AI's suggestions, assumptions, and framing without much critical reflection. The shift is gradual and hard to notice from the inside.</p>
+    <p>AI doesn't just provide answers — it shapes how information is framed, which options are presented, and what looks reasonable or important. As AI becomes embedded in daily life, these subtle influences accumulate across individual decisions, education, workplaces, public discourse, and policy. That's why AI governance is not just a policymaker's or a technology company's problem. It isn't about restricting AI — it's about transparency, accountability, and preserving meaningful human agency.</p>
   </section>
 
   <section id="policy" class="brief-section policy wrap">
-    <h2>Five Governance Steps</h2>
-    <p><strong>First,</strong> map AI-influenced decisions — inventory where models currently shape or make calls, ranked by stakes. <strong>Second,</strong> name a human owner per decision class, so every high-stakes decision keeps a named, accountable person of record. <strong>Third,</strong> rotate judgment-building work back to staff, protecting time for people to practice the calls the tools now draft. <strong>Fourth,</strong> audit recommendations quarterly, sampling AI-assisted decisions for rubber-stamping and rationale loss. <strong>Fifth,</strong> set escalation thresholds that elected officials and boards must decide themselves — some decisions should never quietly move to a model-assisted default; define them in advance, in writing.</p>
+    <h2>Policy</h2>
+
+    <h3>The Gap in Current Policy</h3>
+    <p>The leading U.S. policy framework, NIST's AI Risk Management Framework, lets organizations adopt as many or as few of its recommendations as they see fit — which leaves the gap that matters open at every organization's discretion. Existing policy tracks whether AI was used and whether a human ultimately signed off; it stops there. That standard is satisfied even when a human's only contribution was approving an idea that was AI-originated from the start. Signing off is not the same as deciding.</p>
+
+    <h3>A Drop-In Policy: The Gradual Disempowerment Safeguard</h3>
+    <p>Adoption scaled to organization size and impact — choose your package, expand it later.</p>
+
+    <div class="tier-grid">
+      <div class="tier-card card">
+        <div class="tag tag-outline tier-tag">Tier 1</div>
+        <div class="tier-name">Small Business / Low-Risk</div>
+        <ul>
+          <li>Assign a human owner of the governance policy</li>
+          <li>Maintain a register of AI use</li>
+          <li>Require usage statements and records of AI use in document creation and editing</li>
+          <li>Preserve manual alternatives; require at least quarterly skill-checks for employees</li>
+          <li>Provide a clear, transparent channel for reporting concerns to the governance owner</li>
+        </ul>
+      </div>
+      <div class="tier-card card">
+        <div class="tag tag-outline tier-tag">Tier 2</div>
+        <div class="tier-name">Large Organization / Public-Facing or Employee-Affecting Output</div>
+        <p class="tier-scope">Applies all Tier 1 provisions, plus:</p>
+        <ul>
+          <li>Require human-first decision briefs before AI is consulted</li>
+          <li>Conduct periodic sampling and comparison of documents, verifying no value drift and that output stays aligned with organizational goals</li>
+          <li>Maintain a register of critical skills to test</li>
+          <li>Monitor indicators of organizational dependence on AI</li>
+          <li>Provide accessible, transparent human escalation, correction, and appeal channels</li>
+        </ul>
+        <p class="tier-scope">Applies especially to: policy, regulation, benefits, enforcement, hiring, legal, safety, healthcare, finance.</p>
+      </div>
+      <div class="tier-card card">
+        <div class="tag tag-outline tier-tag">Tier 3</div>
+        <div class="tier-name">Highest-Consequence Use Cases</div>
+        <p class="tier-scope">Applies all Tier 1 and Tier 2 provisions, plus:</p>
+        <ul>
+          <li>Require detailed document changelogs</li>
+          <li>Use independent external review with stricter reviewer qualification requirements</li>
+          <li>Run recurring human proficiency exercises</li>
+          <li>Identify technical triggers for qualitative and quantitative review, and when to require retraining or exercises</li>
+          <li>Allow total suspension of AI use by a designated governance body within the organization</li>
+          <li>Publish public transparency and oversight reports</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Four Moves for SLED and Business Leaders</h3>
+    <p>Small policy changes at the micro level, applied consistently, add up to a real reduction in gradual disempowerment at the macro level:</p>
+    <ol class="numbered-list">
+      <li>Require government agencies to use models from multiple vendors, reducing the risk of any one AI company having outsized influence on policy.</li>
+      <li>Log AI involvement in the development of government documents, so AI's policy suggestions can't quietly become rubber-stamped defaults.</li>
+      <li>Have independent agencies or organizations compare new government policies against the biases and recommendations of each major AI model, to catch convergence before it's adopted.</li>
+      <li>Expand governance policies to include an inventory of AI tools that conduct assessments related to degradation and disenfranchisement.</li>
+    </ol>
   </section>
 
   <section id="faq" class="brief-section faq wrap">
     <h2>Frequently Asked</h2>
-    <p>Isn't this just change management? Partly — but the risk here is specifically the loss of human capability and authority, not merely process disruption. Does this slow down AI adoption? No — it keeps adoption fast while keeping a named human accountable for the decisions that matter most. Does this apply to government bodies too? Yes — elected officials and staff are held to the same standard: the decision, and the accountability for it, stays human.</p>
+    <p>Isn't this just change management? Partly — but the risk here is specifically the loss of human capability and authority, not merely process disruption. Does this slow down AI adoption? No — it keeps adoption fast while keeping a named human accountable for the decisions that matter most. Does this apply to government bodies too? Yes — elected officials and staff are held to the same standard: the decision, and the accountability for it, stays human. Is this only for large organizations? No — the tiered structure starts with a handful of low-effort steps any small business or small local government can adopt today, then scales as impact and public exposure grow.</p>
   </section>
+
+  <details class="tech-details wrap">
+    <summary><span class="tag tag-neutral">For Technical Contributors</span> Open technical problems in auditing AI-influenced decisions</summary>
+    <div class="tech-body">
+      <p>The governance steps above are ready to adopt today. If you work on evaluation, auditing tooling, or policy analytics, here's where the open technical problems are — the reliable signal comes from instrumentation at generation time, not detection after the fact.</p>
+      <ul>
+        <li><strong>Provenance logging &amp; audit tooling</strong> — standardized, lobbying-disclosure-style log schemas; cryptographic signing of AI-drafted passages; pipelines that compute a per-agency "delegation ratio" from logs rather than stylometry.</li>
+        <li><strong>Rubber-stamp metrics</strong> — edit distance between the first AI draft and the final adopted text. Low edit distance indicates humans are approving rather than authoring — probably the single most direct disempowerment metric available.</li>
+        <li><strong>Responsiveness elasticity</strong> — Regulations.gov already has public comments and final rules; measure how much final rules change in response to comment content, and whether that elasticity declines over time.</li>
+        <li><strong>Convergence-to-model testing</strong> — give the same policy brief to a panel of off-the-shelf models and measure whether adopted policies increasingly land inside the distribution of what the models produce.</li>
+        <li><strong>Comprehension audits</strong> — NLP over hearing transcripts and Q&amp;A checking consistency between officials' oral explanations and the written policy, or controlled quiz-style audits.</li>
+        <li><strong>Seeded-error canaries</strong> — periodically insert subtle flaws into AI-drafted materials in controlled trials and measure whether human reviewers catch them, like penetration testing for human review capacity.</li>
+        <li><strong>Monoculture detection</strong> — cross-agency correlation analysis: shared unusual drafting choices or errors are a fingerprint of shared model dependence. Also just vendor-concentration dashboards from procurement data.</li>
+        <li><strong>Dependence indices via natural experiments</strong> — major model outages are free experiments: did agency output volume or response times dip during an extended outage? The deliberate version is continuity-of-operations exercises run without AI, with degradation measured.</li>
+        <li><strong>Throughput anomalies</strong> — regulation volume and complexity per staff-hour; sudden jumps in output per human suggest delegation even without provenance data.</li>
+      </ul>
+      <p>Taken together, these point toward one thing: integrated auditing of AI usage across the full pipeline, from generation to adoption.</p>
+    </div>
+  </details>
 </main>
 
 <footer class="site-footer wrap">A governance brief on gradual disempowerment. For internal circulation among organizational and civic leadership.</footer>
