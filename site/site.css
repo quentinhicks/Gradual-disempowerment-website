@@ -173,6 +173,17 @@ body.ds-industry {
   line-height: 1.6;
   opacity: 0.85;
 }
+.juris-links a {
+  white-space: nowrap;
+}
+
+.case-card .card-body sup {
+  font-size: 11px;
+  margin-left: 1px;
+}
+.case-card .card-body sup a {
+  text-decoration: none;
+}
 
 /* — case study cards — */
 .case-card {
